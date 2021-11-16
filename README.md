@@ -20,4 +20,4 @@ Criar uma aplicação MVC fullstack utilizando framework PHP. Objetivo final: C.
 <p>- Bootstrap</p>
 
 <h2>Autora</h2>
-<p>Feito por <a ref="linkedin.com/in/barbara--tavares/">Bárbara Tavares.</a></p>
+<p>Feito por <a href="linkedin.com/in/barbara--tavares/">Bárbara Tavares.</a></p>

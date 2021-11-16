@@ -10,9 +10,9 @@ Criar uma aplicação MVC fullstack utilizando framework PHP. Objetivo final: C.
 - Pessoa.
 
 <h2>Features</h2>
-- [x] Cadastro de tarefas
-- [x] Edição de tarefas
-- [x] Exclusão de tarefas
+- Cadastro de tarefas ✔
+- Edição de tarefas ✔
+- Exclusão de tarefas ✔
 
 <h2>Tecnologias</h2>
 - PHP
@@ -20,4 +20,4 @@ Criar uma aplicação MVC fullstack utilizando framework PHP. Objetivo final: C.
 - Bootstrap
 
 <h2>Autora</h2>
-<a href="linkedin.com/in/barbara--tavares/">Feito com por Bárbara Tavares.</a>
+<p>Feito por <a ref="linkedin.com/in/barbara--tavares/">Bárbara Tavares.</a></p>

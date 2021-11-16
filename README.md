@@ -10,9 +10,9 @@ Criar uma aplicação MVC fullstack utilizando framework PHP. Objetivo final: C.
 - Pessoa.
 
 <h2>Features</h2>
-<p>- Cadastro de tarefas ✔</p>
-<p>- Edição de tarefas ✔</p>
-<p>- Exclusão de tarefas ✔</p>
+* Cadastro de tarefas ✔
+* Edição de tarefas ✔
+* Exclusão de tarefas ✔
 
 <h2>Tecnologias</h2>
 - PHP

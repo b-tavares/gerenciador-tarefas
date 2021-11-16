@@ -85,6 +85,6 @@ class TaskController extends Controller
         $task = Task::findOrFail($id);
         $task->delete();
         
-        return "Tarefa excluída.";
+        return redirect('/')->with('msg', 'Tarefa excluída.');
     }
 }

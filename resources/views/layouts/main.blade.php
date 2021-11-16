@@ -13,20 +13,19 @@
     <body>
         <header>
             <nav class="navbar">
-                <div>
-                    <a href="/">Tarefas</a>
-                </div>
-                <div>
-                    <a href="/tarefas/criar">Criar nova</a>
-                    <a href="/colaboradores">Colaboradores</a> 
-                </div>
+                <a class="navbar-brand" href="/">Tarefas</a>
+                <a class="navbar-brand" href="/tarefas/criar">Criar nova</a>
             </nav>
         </header>
         <main>
-            @yield('content')
+            <div class="container-fluid">
+                @if(session('msg'))
+                    <p class="msg">{{ session('msg') }}</p>
+                @endif
+                @yield('content')
         </main>
         <footer>
-
+            <a href="https://github.com/xbarb/gerenciador-tarefas">Projeto final Mentoria | 2021</p>
         </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

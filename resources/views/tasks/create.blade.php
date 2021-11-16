@@ -7,11 +7,11 @@
 <div id="task-create-container">
         <form action="{{ route('create_task') }}" method="POST">
         @csrf <!-- componente blade que gera token temporário, padrão de segurança do laravel-->
-            <div>  
+            <div class="form-group">  
                 <label for="title">Tarefa:</label>
                 <input type="text" class="form" id="title" name="title" placeholder="Nomeie sua tarefa">
             </div>
-            <div>  
+            <div class="form-group">  
                 <label for="title">Prioridade:</label>
                 <select name="priority" id="priority" class="form">
                     <option value="low">Baixa</option>
@@ -19,20 +19,20 @@
                     <option value="urgent">Urgente</option>
                 </select>
             </div>
-            <div>   
+            <div class="form-group">   
                 <label for="deadline">Prazo:</label>
                 <input type="date" class="form" id="deadline" name="deadline">
             </div>
-            <div>
-                <label for="title">Pessoa:</label>
+            <div class="form-group">
+                <label for="title">Responsável:</label>
                 <input type="text" class="form" id="assigned" name="assigned" placeholder="Quem vai realizar essa tarefa?">
             </div>
-            <div>
+            <div class="form-group">
                 <label for="title">Descrição:</label>
                 <textarea name="description" id="description" class="form" placeholder="O que precisa ser feito, com detalhes."></textarea>
             </div>
             <div>
-                <input type="submit" class="button">
+                <input class="btn btn-primary" type="submit" class="button">
             </div>
         </form>
 </div>

@@ -6,7 +6,7 @@
 
 <div id="task-create-container">
         <form action="{{ route('create_task') }}" method="POST">
-        @csrf <!-- componente blade que gera token temporário, padrão de segurança do laravel-->
+        @csrf
             <div class="form-group">  
                 <label for="title">Tarefa:</label>
                 <input type="text" class="form" id="title" name="title" placeholder="Nomeie sua tarefa">

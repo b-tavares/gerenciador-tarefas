@@ -2,7 +2,7 @@
 
 <h2>Objetivo</h2>
 
-Criar uma aplicação MVC fullstack utilizando framework PHP, assim como API REST, tendo como objeto final um C.R.U.D. de tarefas. O gerenciador de tarefas deve conter: 
+Criar uma aplicação MVC fullstack utilizando framework PHP, assim como API RESTful, tendo como objeto final um C.R.U.D. de tarefas. O gerenciador de tarefas deve conter: 
 - Nome;
 - Prioridade;
 - Prazo;

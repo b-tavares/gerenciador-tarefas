@@ -6,8 +6,8 @@
 
 <div id="task-create-container">
         <form action="{{ route('update_task', ['id' => $task->id]) }}" method="POST">
-        @csrf <!-- componente blade que gera token temporário, padrão de segurança do laravel-->
-        @method('PUT')  <!--os forms html não dão suporte a certos verbos http, e que para contornar esta limitação o Laravel possibilita a criação de campos escondidos que definem o método e a identificação da rota. -->
+        @csrf
+        @method('PUT')
             <div class="form-group">  
                 <label for="title">Tarefa:</label>
                 <input type="text" class="form" id="title" name="title" value="{{ $task->title }}">

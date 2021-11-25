@@ -5,7 +5,7 @@
 @section('content')
 
 <form action="{{ route('delete_task', ['id' => $task->id]) }}" method="POST">
-    @csrf <!-- componente blade que gera token temporário, padrão de segurança do laravel-->
+    @csrf
     <div>    
         <div>  
             <label for="title">Essa ação é irreversível. Tem certeza que deseja excluir essa tarefa?</label>

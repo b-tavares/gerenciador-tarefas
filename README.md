@@ -2,7 +2,7 @@
 
 <h2>Objetivo</h2>
 
-Criar uma aplicação MVC fullstack utilizando framework PHP, assim como API. Objetivo final: C.R.U.D. de tarefas. Deve ser um gerenciador de tarefas e conter: 
+Criar uma aplicação MVC fullstack utilizando framework PHP, assim como API REST, tendo como objeto final um C.R.U.D. de tarefas. O gerenciador de tarefas deve conter: 
 - Nome;
 - Prioridade;
 - Prazo;

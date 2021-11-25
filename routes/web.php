@@ -23,9 +23,9 @@ Route::get('/', function () {
 
 Route::get('/', 'App\Http\Controllers\TaskController@index')->name('home');
 Route::get('/tarefas/criar', 'App\Http\Controllers\TaskController@create');
-Route::post('/tarefas/criar', 'App\Http\Controllers\TaskController@store')->name('create_task');// nomear as rotas permite invocá-las pelo nome, e não apenas caminho.
+Route::post('/tarefas/criar', 'App\Http\Controllers\TaskController@store')->name('create_task');
 Route::get('/tarefas/ver/{id}', 'App\Http\Controllers\TaskController@show')->name('view_task');
 Route::get('/tarefas/editar/{id}', 'App\Http\Controllers\TaskController@edit');
-Route::put('/tarefas/editar/{id}', 'App\Http\Controllers\TaskController@update')->name('update_task'); //patch não deu certo. pq? vish. agora nem o put mais.
+Route::put('/tarefas/editar/{id}', 'App\Http\Controllers\TaskController@update')->name('update_task');
 Route::get('/tarefas/excluir/{id}', 'App\Http\Controllers\TaskController@delete');
 Route::post('/tarefas/excluir/{id}', 'App\Http\Controllers\TaskController@destroy')->name('delete_task');
